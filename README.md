@@ -2,8 +2,17 @@
 <img alt="Text-to-handwriting title image" src="https://res.cloudinary.com/saurabhdaware/image/upload/w_400/v1586015094/saurabh2019/text-to-handwriting-title.png" /> 
 <br/><b>Text to Handwriting Generator</b><br/><br/>
 A tool that converts text to an image that looks like handwriting😛
-
+<br/><br/>
+<b>✨ Now supports multiple languages including Khmer, Hindi, Chinese, and English!</b>
 </p>
+
+## 🌐 Language Support
+
+- **English** - Multiple handwriting fonts (Homemade Apple, Caveat)
+- **Khmer (ភាសាខ្មែរ)** - Battambang and Kantumruy Pro fonts
+- **Hindi (हिंदी)** - Kruti-dev font support
+- **Chinese (中文)** - Liu Jian Mao Cao handwriting font
+- **Custom Fonts** - Upload your own handwriting fonts (.ttf, .otf)
 
 ## 🌠 Output
 

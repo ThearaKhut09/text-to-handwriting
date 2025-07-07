@@ -38,6 +38,10 @@ body.dark {
   font-family: 'Hindi_Font';
   src: url(../fonts/Hindi_Type.ttf);
 }
+@font-face {
+  font-family: 'Khmer_Font';
+  src: url(../fonts/Khmer_Font.ttf);
+}
 
 /* Default CSS Changes */
 * {

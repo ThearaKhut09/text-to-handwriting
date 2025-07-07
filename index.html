@@ -25,7 +25,7 @@
     <meta name="theme-color" content="#09f" />
     <meta
       name="description"
-      content="I hate writing assignments so I made this tool that converts text to an image that looks like handwriting. You can copy paste text content into the textbox and click generate image button to generate image. Text to Handwriting"
+      content="Convert text to handwriting images with support for multiple languages including English, Khmer (ភាសាខ្មែរ), Hindi (हिंदी), and Chinese (中文). Generate realistic handwriting from any text with customizable fonts and styles."
     />
     <meta
       name="keywords"
@@ -90,7 +90,7 @@
     <!-- Load Fonts -->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Homemade+Apple|Roboto|Caveat|Liu+Jian+Mao+Cao&display=swap"
+      href="https://fonts.googleapis.com/css?family=Homemade+Apple|Roboto|Caveat|Liu+Jian+Mao+Cao|Battambang|Kantumruy+Pro&display=swap"
     />
 
     <!-- CSS -->
@@ -156,6 +156,12 @@
                       lacinia lorem. Duis arcu metus, cursus non odio quis,
                       tincidunt tempor augue. Donec eget vestibulum risus.
                       Nullam blandit quis est vitae feugiat.
+                      <br/><br/>
+                      <strong>Khmer Sample:</strong> ភាសាខ្មែរ - សួស្តី! នេះជាឧទាហរណ៍នៃការប្រើប្រាស់ព្រះអក្សរខ្មែរ។ អ្នកអាចបោះពុម្ពវាជាអក្សរដៃ។
+                      <br/><br/>
+                      <strong>Hindi Sample:</strong> हिंदी - नमस्ते! यह हिंदी पाठ का एक उदाहरण है।
+                      <br/><br/>
+                      <strong>Chinese Sample:</strong> 中文 - 你好！这是中文手写字体的示例。
                     </div>
                   </div>
                   <div class="overlay"></div>
@@ -203,6 +209,7 @@
                         Homemade Apple
                       </option>
                       <option value="Hindi_Font">Kruti-dev(Hindi)</option>
+                      <option value="Khmer_Font">Khmer Font</option>
                       <option
                         style="font-family: 'Caveat', cursive; font-size: 13pt;"
                         value="'Caveat', cursive"
@@ -217,6 +224,24 @@
                         value="'Liu Jian Mao Cao', cursive"
                       >
                         Liu Jian Mao Cao
+                      </option>
+                      <option
+                        style="
+                          font-family: 'Battambang';
+                          font-size: 13pt;
+                        "
+                        value="'Battambang', sans-serif"
+                      >
+                        Battambang (Khmer)
+                      </option>
+                      <option
+                        style="
+                          font-family: 'Kantumruy Pro';
+                          font-size: 13pt;
+                        "
+                        value="'Kantumruy Pro', sans-serif"
+                      >
+                        Kantumruy Pro (Khmer)
                       </option>
                     </select>
                   </div>
@@ -503,7 +528,16 @@
           </p>
         </div>
         <div>
-          <h3>4. Where can I request for features and report bugs?</h3>
+          <h3>4. How do I use Khmer fonts?</h3>
+          <p>
+            You can use Khmer fonts in several ways:
+            <br/>• Select "Battambang (Khmer)" or "Kantumruy Pro (Khmer)" from the font dropdown for online fonts
+            <br/>• Use the "Upload your handwriting font" feature to upload your own Khmer .ttf or .otf font
+            <br/>• Type or paste Khmer text (ភាសាខ្មែរ) in the input area and generate the handwriting image
+          </p>
+        </div>
+        <div>
+          <h3>5. Where can I request for features and report bugs?</h3>
           <p>
             You can't. This is a read-only project and there will not be any
             improvements in the project
